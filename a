@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium web development designed to make businesses stand out.">
+  <title>Vertex — Premium Web Development</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="background">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+    <div class="grid"></div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#" class="logo">
+      VERTEX<span>.</span>
+    </a>
+
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Start a Project</a>
+
+    <button class="menu-button" aria-label="Open menu">
+      ☰
+    </button>
+  </header>
+
+
+  <!-- Hero -->
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <div class="badge">
+          <span class="status-dot"></span>
+          Premium Web Development
+        </div>
+
+        <h1>
+          WE BUILD WEBSITES
+          <span>THAT MAKE BUSINESSES STAND OUT.</span>
+        </h1>
+
+        <p>
+          Modern, high-performance websites designed to turn
+          visitors into customers.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="primary-button">
+            Build My Website
+            <span>→</span>
+          </a>
+
+          <a href="#work" class="secondary-button">
+            View Our Work
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>50+</strong>
+            <span>Projects</span>
+          </div>
+
+          <div>
+            <strong>99%</strong>
+            <span>Client Satisfaction</span>
+          </div>
+
+          <div>
+            <strong>24/7</strong>
+            <span>Support</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- Hero Visual -->
+      <div class="hero-visual">
+
+        <div class="orb"></div>
+
+        <div class="floating-card card-one">
+          <div class="mini-icon">✦</div>
+          <div>
+            <strong>Modern Design</strong>
+            <span>Built to impress</span>
+          </div>
+        </div>
+
+        <div class="floating-card card-two">
+          <div class="mini-icon">↗</div>
+          <div>
+            <strong>High Performance</strong>
+            <span>Fast & responsive</span>
+          </div>
+        </div>
+
+        <div class="code-window">
+
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="code-content">
+            <span class="purple">&lt;website</span>
+            <span class="blue"> class</span>=<span class="green">"premium"</span><span class="purple">&gt;</span>
+
+            <br><br>
+
+            <span class="gray">&nbsp;&nbsp;Your Vision.</span>
+
+            <br>
+
+            <span class="gray">&nbsp;&nbsp;Our Code.</span>
+
+            <br>
+
+            <span class="gray">&nbsp;&nbsp;Built to Stand Out.</span>
+
+            <br><br>
+
+            <span class="purple">&lt;/website&gt;</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Services -->
+    <section id="services" class="section">
+
+      <div class="section-heading">
+        <span class="eyebrow">WHAT WE DO</span>
+        <h2>Everything your website<br><span>needs to win.</span></h2>
+        <p>
+          From the first idea to the final launch, we build websites
+          that look incredible and perform even better.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card">
+          <div class="service-number">01</div>
+          <div class="service-icon">◈</div>
+          <h3>Website Design</h3>
+          <p>
+            Clean, modern interfaces designed around your brand
+            and your customers.
+          </p>
+          <a href="#contact">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">02</div>
+          <div class="service-icon">⌘</div>
+          <h3>Website Development</h3>
+          <p>
+            Fast, scalable websites built with modern technology
+            and best practices.
+          </p>
+          <a href="#contact">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">03</div>
+          <div class="service-icon">↻</div>
+          <h3>Redesigns</h3>
+          <p>
+            Transform an outdated website into something modern,
+            professional, and effective.
+          </p>
+          <a href="#contact">Learn more →</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-number">04</div>
+          <div class="service-icon">▣</div>
+          <h3>Mobile Optimization</h3>
+          <p>
+            Perfect experiences across phones, tablets,
+            laptops, and desktops.
+          </p>
+          <a href="#contact">Learn more →</a>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- Work -->
+    <section id="work" class="section work-section">
+
+      <div class="section-heading split-heading">
+        <div>
+          <span class="eyebrow">SELECTED WORK</span>
+          <h2>Websites built to<br><span>make an impact.</span></h2>
+        </div>
+
+        <p>
+          Every project combines strategy, design, and technology
+          to create an experience people remember.
+        </p>
+      </div>
+
+      <div class="projects">
+
+        <article class="project project-large">
+
+          <div class="project-image project-one">
+            <div class="project-browser">
+              <div class="browser-top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+
+              <div class="mockup-content">
+                <small>ARC / STUDIO</small>
+                <h3>CREATE<br>WITHOUT<br>LIMITS.</h3>
+                <div class="mockup-line"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <h3>Arc Studio</h3>
+              <p>Creative Agency</p>
+            </div>
+
+            <span>↗</span>
+          </div>
+
+        </article>
+
+
+        <article class="project">
+
+          <div class="project-image project-two">
+            <div class="product-card">
+              <div class="product-circle"></div>
+              <small>NOVA</small>
+              <h3>Future<br>Performance.</h3>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <h3>Nova</h3>
+              <p>Technology</p>
+            </div>
+
+            <span>↗</span>
+          </div>
+
+        </article>
+
+
+        <article class="project">
+
+          <div class="project-image project-three">
+            <div class="finance-card">
+              <small>GROWTH</small>
+              <strong>$248,920</strong>
+              <div class="chart">
+                <i></i><i></i><i></i><i></i><i></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <h3>Elevate</h3>
+              <p>Finance Platform</p>
+            </div>
+
+            <span>↗</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- Why Us -->
+    <section class="section why-section">
+
+      <div class="why-content">
+
+        <div>
+          <span class="eyebrow">WHY VERTEX</span>
+
+          <h2>
+            Not just a website.<br>
+            <span>A competitive advantage.</span>
+          </h2>
+
+          <p>
+            Your website is often the first impression customers have
+            of your business. We make sure it's a great one.
+          </p>
+
+          <a href="#contact" class="primary-button">
+            Work With Us <span>→</span>
+          </a>
+        </div>
+
+
+        <div class="advantages">
+
+          <div class="advantage">
+            <div class="advantage-icon">01</div>
+            <div>
+              <h3>Fast</h3>
+              <p>Lightning-fast load times and optimized performance.</p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <div class="advantage-icon">02</div>
+            <div>
+              <h3>Modern</h3>
+              <p>Fresh designs built around today's digital standards.</p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <div class="advantage-icon">03</div>
+            <div>
+              <h3>Responsive</h3>
+              <p>Beautiful experiences on every screen size.</p>
+            </div>
+          </div>
+
+          <div class="advantage">
+            <div class="advantage-icon">04</div>
+            <div>
+              <h3>Results</h3>
+              <p>Designed to turn attention into real customers.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Process -->
+    <section id="process" class="section">
+
+      <div class="section-heading center">
+        <span class="eyebrow">OUR PROCESS</span>
+        <h2>Simple process.<br><span>Exceptional results.</span></h2>
+      </div>
+
+      <div class="process">
+
+        <div class="process-line"></div>
+
+        <div class="process-step">
+          <div class="process-number">01</div>
+          <h3>Discover</h3>
+          <p>
+            We learn about your business, audience, goals,
+            and vision.
+          </p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">02</div>
+          <h3>Design</h3>
+          <p>
+            We create a visual direction that makes your brand
+            impossible to ignore.
+          </p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">03</div>
+          <h3>Build</h3>
+          <p>
+            Our developers turn the design into a fast,
+            functional website.
+          </p>
+        </div>
+
+        <div class="process-step">
+          <div class="process-number">04</div>
+          <h3>Launch</h3>
+          <p>
+            We test everything and get your new website
+            ready for the world.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Testimonials -->
+    <section class="section testimonials-section">
+
+      <div class="section-heading center">
+        <span class="eyebrow">CLIENT LOVE</span>
+        <h2>Don't take our<br><span>word for it.</span></h2>
+      </div>
+
+      <div class="testimonial-grid">
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>
+            “Vertex completely transformed our online presence.
+            The new website looks incredible and we've already
+            noticed more inquiries.”
+          </p>
+
+          <div class="person">
+            <div class="avatar">JD</div>
+            <div>
+              <strong>Jordan Davis</strong>
+              <span>Founder, Arc Studio</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>
+            “The entire process was smooth and professional.
+            They understood our vision immediately and delivered
+            something better than we imagined.”
+          </p>
+
+          <div class="person">
+            <div class="avatar">MK</div>
+            <div>
+              <strong>Marcus King</strong>
+              <span>CEO, Nova</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>
+            “Our old website felt outdated. Now customers
+            constantly compliment how professional our brand
+            looks online.”
+          </p>
+
+          <div class="person">
+            <div class="avatar">AS</div>
+            <div>
+              <strong>Alex Smith</strong>
+              <span>Founder, Elevate</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section">
+
+      <div class="cta-glow"></div>
+
+      <span class="eyebrow">READY TO STAND OUT?</span>
+
+      <h2>
+        Let's build something<br>
+        <span>people remember.</span>
+      </h2>
+
+      <p>
+        Tell us about your project and let's turn your vision
+        into a website that works.
+      </p>
+
+      <a href="#contact" class="primary-button">
+        Build My Website <span>→</span>
+      </a>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+      <div class="contact-info">
+
+        <span class="eyebrow">GET IN TOUCH</span>
+
+        <h2>
+          Have a project<br>
+          <span>in mind?</span>
+        </h2>
+
+        <p>
+          Fill out the form and we'll get back to you as soon
+          as possible.
+        </p>
+
+        <div class="contact-detail">
+          <span>EMAIL</span>
+          <strong>hello@vertexweb.dev</strong>
+        </div>
+
+      </div>
+
+
+      <form class="contact-form" id="contactForm">
+
+        <div class="input-row">
+
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your name" required>
+          </div>
+
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" required>
+          </div>
+
+        </div>
+
+        <div class="input-group">
+          <label>Company</label>
+          <input type="text" placeholder="Your company">
+        </div>
+
+        <div class="input-group">
+          <label>Tell us about your project</label>
+          <textarea rows="5" placeholder="What can we build together?" required></textarea>
+        </div>
+
+        <button type="submit" class="primary-button submit-button">
+          Send Message <span>→</span>
+        </button>
+
+        <p class="form-message" id="formMessage"></p>
+
+      </form>
+
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+
+    <div class="footer-top">
+
+      <div>
+        <a href="#" class="logo">
+          VERTEX<span>.</span>
+        </a>
+
+        <p>
+          Your Vision. Our Code.<br>
+          Built to Stand Out.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <div>
+          <strong>Explore</strong>
+          <a href="#services">Services</a>
+          <a href="#work">Our Work</a>
+          <a href="#process">Process</a>
+        </div>
+
+        <div>
+          <strong>Connect</strong>
+          <a href="#contact">Contact</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Vertex. All rights reserved.</span>
+      <span>Your Vision. Our Code. Built to Stand Out.</span>
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
